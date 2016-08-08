@@ -1,0 +1,14 @@
+create a teleOP node to control robot
+
+
+
+forward with up  x=1 y=0 z=0
+
+back with down   x=-1 y=0 z=0
+
+turn cw with right  az = -1
+
+turn ccw with left  az = 1 
+
+set a delay and then output 0's for cmd_vel
+

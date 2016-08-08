@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<launch>
+	
+	
+		
+	<!--  Runs mapping default.launch, geotiff_mapper.launch and rviz with the rviz configuration -->
+	<include file="$(find hector_slam_launch)/launch/tutorial.launch"/>
+
+	<!-- Runs the exploration controller -->	
+	<node pkg="hector_exploration_controller" name="simple_exploration_controller" type="simple_exploration_controller" output="screen"
+		launch-prefix="xterm -e"/>
+	
+	<node pkg="hector_exploration_node" type="exploration_planner_node" name="hector_exploration_node" output="screen">
+   		<rosparam file="$(find hector_exploration_node)/config/costmap.yaml" command="load" />
+  	</node>
+</launch>

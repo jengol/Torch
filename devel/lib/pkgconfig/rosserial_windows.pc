@@ -1,0 +1,8 @@
+prefix=/home/jengol/catkin_ws/devel
+
+Name: rosserial_windows
+Description: Description of rosserial_windows
+Version: 0.7.2
+Cflags: 
+Libs: -L/home/jengol/catkin_ws/devel/lib 
+Requires: 

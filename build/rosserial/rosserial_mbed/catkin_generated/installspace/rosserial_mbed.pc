@@ -1,0 +1,8 @@
+prefix=/home/jengol/catkin_ws/install
+
+Name: rosserial_mbed
+Description: Description of rosserial_mbed
+Version: 0.7.2
+Cflags: -I/home/jengol/catkin_ws/install/include
+Libs: -L/home/jengol/catkin_ws/install/lib 
+Requires: message_runtime
