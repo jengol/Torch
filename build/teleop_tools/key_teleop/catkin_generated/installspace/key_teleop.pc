@@ -1,0 +1,8 @@
+prefix=/home/jengol/catkin_ws/install
+
+Name: key_teleop
+Description: Description of key_teleop
+Version: 0.2.3
+Cflags: 
+Libs: -L/home/jengol/catkin_ws/install/lib 
+Requires: 

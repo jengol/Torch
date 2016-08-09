@@ -1,1 +1,5 @@
 the nav_msgs::path outputs a sequence of poses(points in the graph) relative to 0,0 (starting point of the robot) that is navigation path as a connection of points
+
+
+
+ultimately I want the robot to be able to move in the x direction while also being given a rotation

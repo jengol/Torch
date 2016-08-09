@@ -23,6 +23,10 @@ geometry_msgs/Twist.h
 /home/jengol/catkin_ws/src/hector_navigation/hector_path_follower/src/hector_path_follower.cpp
 hector_path_follower/hector_path_follower.h
 -
+iostream
+-
+math.h
+-
 
 /opt/ros/indigo/include/XmlRpcDecl.h
 ros/macros.h
